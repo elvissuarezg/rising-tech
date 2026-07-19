@@ -2,70 +2,180 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial, Helvetica, sans-serif;
+font-family:Segoe UI,sans-serif;
 }
 
 body{
-background:#0b0d11;
+background:#0b0d13;
 color:white;
 }
 
 header{
-padding:40px;
-text-align:center;
+
+background:url("../images/hero-bg.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+min-height:100vh;
+
 }
 
-header h1{
-font-size:50px;
-margin-top:15px;
-}
+.navbar{
 
-header p{
-color:#00c8ff;
-font-size:20px;
-margin-top:10px;
-}
-
-nav{
 display:flex;
-justify-content:center;
-gap:30px;
-padding:20px;
-background:#151922;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 80px;
+
+background:rgba(0,0,0,.55);
+
+backdrop-filter:blur(10px);
+
 }
 
-nav a{
-text-decoration:none;
+.logo img{
+
+width:180px;
+
+}
+
+.navbar ul{
+
+display:flex;
+
+list-style:none;
+
+gap:35px;
+
+}
+
+.navbar a{
+
 color:white;
+
+text-decoration:none;
+
 font-weight:bold;
+
+transition:.3s;
+
 }
 
-nav a:hover{
-color:#00c8ff;
+.navbar a:hover{
+
+color:#00bfff;
+
 }
 
 .hero{
-text-align:center;
-padding:80px 20px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:70px;
+
 }
 
-.hero h2{
-font-size:40px;
-margin-bottom:20px;
+.hero-text{
+
+width:50%;
+
 }
 
-.hero p{
-max-width:700px;
-margin:auto;
+.hero-text h1{
+
+font-size:70px;
+
+}
+
+.hero-text h2{
+
+color:#00bfff;
+
+margin:15px 0;
+
+font-size:30px;
+
+}
+
+.hero-text p{
+
 font-size:20px;
-margin-bottom:35px;
+
+line-height:35px;
+
+margin-bottom:40px;
+
 }
 
-.hero a{
-background:#00c8ff;
-padding:15px 40px;
+.hero-image{
+
+width:45%;
+
+text-align:center;
+
+}
+
+.hero-image img{
+
+width:100%;
+
+max-width:550px;
+
+}
+
+.btn{
+
+background:#00bfff;
+
+padding:15px 35px;
+
+border-radius:8px;
+
 text-decoration:none;
-color:black;
+
+color:#000;
+
 font-weight:bold;
-border-radius:10px;
+
+margin-right:15px;
+
+}
+
+.btn:hover{
+
+background:#0099cc;
+
+}
+
+.btn2{
+
+border:2px solid #00bfff;
+
+padding:15px 35px;
+
+border-radius:8px;
+
+text-decoration:none;
+
+color:white;
+
+font-weight:bold;
+
+}
+
+.btn2:hover{
+
+background:#00bfff;
+
+color:black;
+
 }
